@@ -1,0 +1,25 @@
+p {
+    color: blue;
+    font-size: 20px;
+    width: 150px;
+    background-color: aqua;
+    padding: 10px;
+    float: left;
+    border: 5px solid black;
+    margin-left:25px;
+    box-sizing:border-box;
+   position: relative;
+  }
+  
+  h1 {
+    color: red;
+    font-size: 36px;
+    text-align: center;
+  }
+  h2
+  {
+      color:aqua;
+      text-align: left;
+      position: relative;
+      float:top;
+  }
