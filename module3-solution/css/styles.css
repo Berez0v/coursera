@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: maroon;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: rgb(255, 201, 9);
+    border-radius: 0;
+    border: 0;
+   
+}
+
+#logo-img {
+    background: url('../img/logg.jpg') no-repeat;
+    width: 200px;
+    height: 200px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+button.right {
+    float: right;
+}
+.dropdown-menu
+{  float: center;
+    margin-bottom: 214px;
+    padding: 0;
+    width: 100%;
+background-color: rgb(222, 239, 111);
+}
+/* 
+.dropdown-menu.show
+{
+ position: relative;
+} */
+.dropdown-item
+{
+    text-align: center;
+    border: solid 1px black;
+}
+ .hah {
+     color:black;
+float: center;
+text-align: center;
+position: relative;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.mane
+{   margin-top: 50px;
+    background-color: aqua;
+    padding: 10px;
+    border:1px solid black;
+    font-family: 'oxygen',sans-serif;
+    font-style: oblique;
+    color:gray;
+}
+.haha {
+    color:darkblue;
+float: center;
+text-align: center;
+position: relative;
+
+
+}
