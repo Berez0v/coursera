@@ -5,17 +5,20 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-#header-nav {
-    background-color: rgb(255, 201, 9);
-    border-radius: 0;
-    border: 0;
-   
-}
 
+/* .navbar-toggler
+{
+border: 0px;
+}
+.navbar-toggler.collapsed
+{
+border: 0px;
+} */
 
 .navbar-brand {
     padding-top: 1px;
 font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 2px;
 }
 
 .navbar-brand h1 {
@@ -29,33 +32,39 @@ font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0;
     line-height: .75;
 }
-
+.navbar
+{
+    padding-bottom: 3px;
+}
 
 .navbar-brand a {
     text-decoration: none;
 }
 
-.navbar-brand p {
+/* .navbar-brand p {
     color: #000;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 15px;
-}
-button.right {
+} */
+/* button.right {
     float: right;
-}
-.dropdown-menu
+} */
+.dropdown-menu.show
 {  float: center;
-    margin-bottom: 214px;
+    margin-bottom: 20px;
     padding: 0;
     width: 100%;
 background-color: rgb(222, 239, 111);
 }
-
+/* .navbar-collapse.show 
+{
+ 
+} */
 .dropdown-item
 {
     text-align: center;
-    border: solid 1px black;
+
 }
  .hah {
 color:black;
@@ -65,7 +74,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .mane
-{   margin-top: 50px;
+{   margin-top: 10px;
     background-color: aqua;
     padding: 10px;
     border:1px solid black;
@@ -74,13 +83,15 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:gray;
 }
 .haha {
-    color:darkblue;
-float: center;
+    color:rgb(217, 180, 68);
 text-align: center;
-
-
-
 }
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
 .qwert
 {
 position: fixed;
